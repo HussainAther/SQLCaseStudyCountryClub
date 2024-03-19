@@ -1,45 +1,46 @@
-# Country Club Data Analysis Case Study
+# SQL Case Study: Country Club Analysis
 
-## Overview
+## Introduction
 
-In this case study, you will dive into the fascinating world of data science through the exploration of a Country Club's database. This project will challenge you to utilize a combination of MySQL, PHPMyAdmin, Jupyter Notebook, and SQLite to navigate and analyze data effectively. Through this case study, you will gain hands-on experience with real-world data science methodologies, transforming raw data into insightful analyses by crafting precise SQL queries.
+This project explores and analyzes data from a Country Club database, using a blend of technologies including MySQL, PHPMyAdmin, Jupyter Notebook, and SQLite. Designed to test and enhance your SQL skills, this case study takes you through a series of queries that uncover insights from the Country Club's operational data. By engaging with this case study, you will experience firsthand the methodologies data scientists employ daily to extract meaningful information from databases.
 
-Duration: 3 - 6 Hours  
-Points: 81  
+## Project Structure
 
-## Objectives
+- **PHPMyAdmin & MySQL**: Initially, you will interact with the Country Club database via PHPMyAdmin, leveraging MySQL for data querying.
+- **SQLite & Python**: The latter part of the project involves connecting to a local SQLite database through Python within a Jupyter Notebook, allowing for a seamless integration of SQL querying and data analysis in Python.
 
-- Understand and interact with a database using PHPMyAdmin's user-friendly interface.
-- Establish a connection to a local SQLite database using Python within a Jupyter Notebook.
-- Retrieve specific data points by translating analytical questions into SQL queries.
-- Choose between two difficulty tiers based on your confidence level and desire for guidance.
+Throughout the case study, you will be tasked with a series of questions designed to challenge your ability to translate analytical questions into effective SQL queries.
 
-## Difficulty Tiers
+## Installation and Setup
 
-### Tier Two
+1. **PHPMyAdmin Access**: Log into PHPMyAdmin using the provided URL, username, and password to access the Country Club database.
+   - URL: `https://sql.springboard.com/`
+   - Username: `student`
+   - Password: `learn_sql@springboard`
 
-For those who are confident in navigating PHPMyAdmin and establishing a Python connection to a local SQLite database without additional guidance. This tier is recommended for individuals ready to challenge themselves.
+2. **Jupyter Notebook Setup**:
+   - Ensure you have Jupyter Notebook installed. If not, you can install it via Anaconda or directly through pip.
+   - Clone or download the provided notebook to your local machine.
 
-### Tier One
+3. **SQLite Database Connection**:
+   - The notebook includes instructions for connecting to the SQLite version of the Country Club database. Follow these steps to establish the connection within the notebook.
 
-Ideal for individuals seeking some guidance through the process of exploring data in PHPMyAdmin and setting up a SQLite connection in Python. This tier provides helpful pointers to assist you in managing complex assignments.
+## Notebook Contents
 
-## Setup Instructions
+- **Introduction and Setup**: Initial setup instructions and overview of the database structure.
+- **Part 1: PHPMyAdmin Queries**: Solutions and explanations for queries executed in PHPMyAdmin.
+- **Part 2: SQLite & Python Analysis**: Further analysis using SQLite connected through a Python interface in Jupyter Notebook. This section dives deeper into data analysis, leveraging pandas and SQL for advanced queries and data manipulation.
 
-1. **Select Your Difficulty Tier:** Decide which tier suits your current skill level and learning goals.
-2. **Database and Tool Setup:**
-   - For PHPMyAdmin and MySQL: Follow the instructions provided to set up and access the Country Club database through PHPMyAdmin.
-   - For Jupyter Notebook and SQLite: Depending on your chosen tier, use the provided resources to establish a connection to the local SQLite instance of the Country Club database.
-3. **SQLFiles Folder:** Paste the relevant SQLFiles folder into your working directory on PHPMyAdmin to access the database and start your case study.
-4. **Open SQLTasks File:** This file contains all the instructions and questions you will be working on. Make sure to read through it thoroughly before beginning.
+## Learning Outcomes
 
-## Assignment Submission
+By completing this case study, you will:
 
-Upon completion of this case study, please ensure that your work is uploaded to a **public repository** on GitHub. Share the link to this repository when submitting your assignment for grading.
+- Gain practical experience with SQL by executing queries to retrieve and analyze data.
+- Learn how to use PHPMyAdmin for database interaction and MySQL for querying.
+- Develop skills in connecting to and manipulating databases using SQLite in a Python environment.
+- Understand the structure and operations of a typical country club through data analysis.
 
-**Important:** Double-check that your submission link is valid and accessible to ensure that you receive feedback from a grader.
+## Submission Guidelines
 
-## Happy Querying!
-
-We are excited to see how you apply your SQL knowledge to uncover insights within the Country Club database. Good luck, and enjoy the process of learning through doing!
+Once you have completed the case study, ensure your Jupyter Notebook is fully documented with your SQL queries and analysis. Upload your final notebook to a public GitHub repository and submit the link for review and feedback. Please ensure your repository link is accessible to facilitate the grading process.
 
